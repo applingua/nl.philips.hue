@@ -5,10 +5,12 @@
   "compatibility": ">=1.5.0",
   "sdk": 2,
   "name": {
-    "en": "Philips Hue"
+    "en": "Philips Hue",
+	"de": "Philips Hue"
   },
   "description": {
-    "en": "Philips Hue for Homey"
+    "en": "Philips Hue for Homey",
+	"de": "Philips Hue für Homey"
   },
   "author": {
     "name": "Athom B.V."
@@ -31,7 +33,8 @@
       "id": "bulb",
       "name": {
         "en": "Light",
-        "nl": "Lamp"
+        "nl": "Lamp",
+		"de": "Licht"
       },
       "class": "light",
       "capabilities": [
@@ -94,7 +97,8 @@
       "id": "dimmerswitch",
       "name": {
         "en": "Dimmer Switch",
-        "nl": "Dimmer Switch"
+        "nl": "Dimmer Switch",
+		"de": "Dimmschalter"
       },
       "class": "sensor",
       "capabilities": [
@@ -131,7 +135,8 @@
       "id": "tap",
       "name": {
         "en": "Tap",
-        "nl": "Tap"
+        "nl": "Tap",
+		"de": "Tap"
       },
       "class": "other",
       "capabilities": [],
@@ -166,7 +171,8 @@
       "id": "motionsensor",
       "name": {
         "en": "Motion Sensor",
-        "nl": "Bewegingssensor"
+        "nl": "Bewegingssensor",
+		"de": "Bewegungssensor"
       },
       "class": "sensor",
       "capabilities": [
@@ -209,7 +215,8 @@
         "id": "dimmerswitch_button_pressed",
         "title": {
           "en": "A button is pressed",
-          "nl": "Een knop is ingedrukt"
+          "nl": "Een knop is ingedrukt",
+		  "de": "Eine Taste wird gedrückt"
         },
         "args": [
           {
@@ -225,28 +232,32 @@
                 "id": "on",
                 "label": {
                   "en": "On",
-                  "nl": "Aan"
+                  "nl": "Aan",
+				  "de": "An"
                 }
               },
               {
                 "id": "increase_brightness",
                 "label": {
                   "en": "Increase brightness",
-                  "nl": "Verhoog helderheid"
+                  "nl": "Verhoog helderheid",
+				  "de": "Helligkeit erhöhen"
                 }
               },
               {
                 "id": "decrease_brightness",
                 "label": {
                   "en": "Decrease brightness",
-                  "nl": "Verlaag helderheid"
+                  "nl": "Verlaag helderheid",
+				  "de": "Helligkeit verringern"
                 }
               },
               {
                 "id": "off",
                 "label": {
                   "en": "Off",
-                  "nl": "Uit"
+                  "nl": "Uit",
+				  "de": "Aus"
                 }
               }
             ]
@@ -257,7 +268,8 @@
         "id": "tap_button_pressed",
         "title": {
           "en": "A button is pressed",
-          "nl": "Een knop is ingedrukt"
+          "nl": "Een knop is ingedrukt",
+		  "de": "Eine Taste wird gedrückt"
         },
         "args": [
           {
@@ -273,28 +285,32 @@
                 "id": "button1",
                 "label": {
                   "en": "Button 1",
-                  "nl": "Knop 1"
+                  "nl": "Knop 1",
+				  "de": "Taste 1"
                 }
               },
               {
                 "id": "button2",
                 "label": {
                   "en": "Button 2",
-                  "nl": "Knop 2"
+                  "nl": "Knop 2",
+				  "de": "Taste 2"
                 }
               },
               {
                 "id": "button3",
                 "label": {
                   "en": "Button 3",
-                  "nl": "Knop 3"
+                  "nl": "Knop 3",
+				  "de": "Taste 3"
                 }
               },
               {
                 "id": "button4",
                 "label": {
                   "en": "Button 4",
-                  "nl": "Knop 4"
+                  "nl": "Knop 4",
+				   "de": "Taste 4"
                 }
               }
             ]
@@ -307,7 +323,8 @@
         "id": "shortAlert",
         "title": {
           "en": "Blink the light (short)",
-          "nl": "Knipper de lamp (kort)"
+          "nl": "Knipper de lamp (kort)",
+		  "de": "Das Licht blinken lassen (kurz)"
         },
         "args": [
           {
@@ -321,7 +338,8 @@
         "id": "longAlert",
         "title": {
           "en": "Blink the light (long)",
-          "nl": "Knipper de lamp (lang)"
+          "nl": "Knipper de lamp (lang)",
+		  "de": "Das Licht blinken lassen (lang)"
         },
         "args": [
           {
@@ -335,7 +353,8 @@
         "id": "startColorLoop",
         "title": {
           "en": "Start colorloop effect",
-          "nl": "Begin kleur effect"
+          "nl": "Begin kleur effect",
+		  "de": "Farbschleifen-Effekt starten"
         },
         "args": [
           {
@@ -349,7 +368,8 @@
         "id": "stopColorLoop",
         "title": {
           "en": "Stop colorloop effect",
-          "nl": "Stop kleur effect"
+          "nl": "Stop kleur effect",
+		  "de": "Farbschleifen-Effekt anhalten"
         },
         "args": [
           {
@@ -364,7 +384,8 @@
         "deprecated": true,
         "title": {
           "en": "Set random color",
-          "nl": "Kies willekeurige kleur"
+          "nl": "Kies willekeurige kleur",
+		  "de": "Zufällige Farbe setzen"
         },
         "args": [
           {
@@ -378,7 +399,8 @@
         "id": "setScene",
         "title": {
           "en": "Set a scene",
-          "nl": "Activeer een scene"
+          "nl": "Activeer een scene",
+		  "de": "Eine Szene setzen"
         },
         "args": [
           {
@@ -391,7 +413,8 @@
         "id": "groupOn",
         "title": {
           "en": "Turn all lights on in a room",
-          "nl": "Zet alle lampen aan in een ruimte"
+          "nl": "Zet alle lampen aan in een ruimte",
+		  "de": "Alle Lichter in einem Raum einschalten"
         },
         "args": [
           {
@@ -404,7 +427,8 @@
         "id": "groupOff",
         "title": {
           "en": "Turn all lights off in a room",
-          "nl": "Zet alle lampen uit in een ruimte"
+          "nl": "Zet alle lampen uit in een ruimte",
+		  "de": "Alle Lichter in einem Raum ausschalten"
         },
         "args": [
           {
@@ -417,7 +441,8 @@
         "id": "enableMotionSensor",
         "title": {
           "en": "Enable sensor",
-          "nl": "Schakel sensor in"
+          "nl": "Schakel sensor in",
+		  "de": "Sensor aktivieren"
         },
         "args": [
           {
@@ -431,7 +456,8 @@
         "id": "disableMotionSensor",
         "title": {
           "en": "Disable sensor",
-          "nl": "Schakel sensor uit"
+          "nl": "Schakel sensor uit",
+		  "de": "Sensor deaktivieren"
         },
         "args": [
           {

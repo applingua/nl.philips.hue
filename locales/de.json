@@ -1,0 +1,18 @@
+{
+	"pair": {
+		"select_bridge": {
+			"title": "Wähle deine Philips Hue Bridge",
+			"no_bridges": "Es wurden keine Philips Hue Bridges gefunden."
+		},
+		"press_button": {
+			"title": "Drücke die Taste",
+			"description": "Drücke die Taste auf deiner Philips Hue Bridge."
+		}
+	},
+	"notification": {
+		"brightness_increment_deprecated": "Die Flow-Karte 'Helligkeit über Zeit ändern' ist jetzt veraltet und wird in Zukunft entfernt. Bitte verwende die Flow-Karte 'Helligkeit setzen' mit einem 'Dauer'-Wert."
+	},
+	"no_bridges": "Keine Bridges verbunden",
+	"unreachable": "Unerreichbar",
+	"all_lights": "Alle Lichter"
+}
